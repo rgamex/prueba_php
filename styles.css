@@ -1,0 +1,983 @@
+
+#cabecera
+{
+	width: 100%;
+	height:150px;
+	background-color:#3db2e1;	
+	border-top:10px solid #000;
+
+
+	
+
+	
+}
+
+
+header{
+height:150px;
+width:100%;
+margin:0px;
+padding:0px;
+
+	
+}
+
+#logo1{
+width:450px;
+height:128px;	
+	
+}
+
+
+
+#logo2
+{
+	float:right;
+}
+
+
+
+
+body{
+	
+margin:0px;
+padding:0px;
+height:100%;
+width:100%;
+background-image:url(img/fondo.png);
+
+
+	
+}
+
+#menuBuscador
+{
+margin-top:10px;
+margin-left:300px;
+	
+	
+}
+
+
+
+
+
+#txtbuscar
+{
+	width:200px;
+	height:20px;
+	border-radius:15px;
+	border:solid 2px #000;
+	margin-left:60%;
+
+
+
+	
+}
+
+#botonBuscar
+{
+	height:20px;
+	width:70px;
+	border-radius:11px;
+	border: solid 1px black;
+
+	
+	
+}
+
+#administrar
+{
+	float:right;
+	background-color:#4D65E6;
+	border-bottom-left-radius: 10px;
+	
+}
+
+#administrar a{
+
+	text-decoration:none;
+	color:#fff;	
+	padding:10px;
+	
+}
+
+#administrar a:hover{
+
+	text-decoration:none;
+	color:#000;	
+	
+}
+
+
+#slider{
+	
+	
+	background-color:#FFF;
+	padding-left:15%;
+	padding-top:3%;
+	margin-bottom:15%;
+	padding-bottom:15%;
+	
+}
+#slider a:hover{
+	
+	opacity: 0.4;
+    filter: alpha(opacity=40);
+	
+}
+
+
+#almacenaje{
+	
+	width:480px;
+	float:left;
+	
+}
+
+#almacenaje img{
+	
+	width:470px;		
+}
+
+#dormitorios{
+	
+	width:470px;
+	float:left;
+	margin-left:10px;
+	height:420px;
+	
+	
+	
+	
+}
+
+#dormitorios img{
+	
+	width:470px;
+	height:350px;
+}
+
+#sillas
+{
+	width:960px;
+}
+
+#sillas img{
+	
+		width:960px;
+		height:350px;
+}
+
+
+
+
+
+
+
+
+
+
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a,
+#cssmenu #menu-button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#cssmenu:after,
+#cssmenu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#cssmenu #menu-button {
+  display: none;
+}
+#cssmenu {
+  font-family: Raleway, sans-serif;
+  line-height: 1;
+  margin-top:10px;
+  width:100%;
+  
+
+ 
+ 
+  
+	
+ 
+
+}
+#cssmenu > ul {
+  background: #3db2e1;
+}
+#cssmenu > ul > li {
+  float: left;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  perspective: 1000px;
+}
+#cssmenu.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+#cssmenu.align-right > ul > li {
+  float: right;
+}
+#cssmenu > ul > li > a {
+  padding: 16px 20px;
+  font-size: 14px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #3db2e1;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+#cssmenu > ul > li.active > a {
+  color: #000;
+}
+#cssmenu > ul > li:hover > a,
+#cssmenu > ul > li > a:hover {
+  color: #dff2fa;
+  -webkit-transform: rotateX(90deg) translateY(-23px);
+  -moz-transform: rotateX(90deg) translateY(-23px);
+  transform: rotateX(90deg) translateY(-23px);
+  -ms-transform: none;
+}
+#cssmenu > ul > li > a::before {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: -1;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 16px 20px;
+  color: #dff2fa;
+  background: #19799f;
+  content: attr(data-title);
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  transition: background 0.3s;
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -ms-transform: translateY(- -18px);
+}
+#cssmenu > ul > li:hover > a::before,
+#cssmenu > ul > li > a:hover::before {
+  background: #3db2e1;
+}
+#cssmenu.small-screen {
+  width: 100%;
+}
+#cssmenu.small-screen > ul,
+#cssmenu.small-screen.align-center > ul {
+  width: 100%;
+  text-align: left;
+}
+#cssmenu.small-screen > ul > li,
+#cssmenu.small-screen.align-center {
+  float: none;
+  display: block;
+  border-top: 1px solid rgba(100, 100, 100, 0.1);
+}
+#cssmenu.small-screen > ul > li:hover > a,
+#cssmenu.small-screen > ul > li > a:hover {
+  color: #dff2fa;
+  -webkit-transform: none;
+  -moz-transform: none;
+  transform: none;
+  -ms-transform: none;
+}
+#cssmenu.small-screen > ul > li > a::before {
+  display: none;
+}
+#cssmenu.small-screen #menu-button {
+  display: block;
+  padding: 16px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: #3db2e1;
+}
+#cssmenu.small-screen #menu-button:after {
+  content: "";
+  position: absolute;
+  right: 20px;
+  top: 17px;
+  display: block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border-top: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  width: 22px;
+  height: 3px;
+}
+#cssmenu.small-screen #menu-button.menu-opened:after {
+  border-top: 2px solid #dff2fa;
+  border-bottom: 2px solid #dff2fa;
+}
+#cssmenu.small-screen #menu-button:before {
+  content: "";
+  position: absolute;
+  right: 20px;
+  top: 27px;
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: #ffffff;
+}
+#cssmenu.small-screen #menu-button.menu-opened:before {
+  background: #dff2fa;
+}
+
+
+/*Estilos de las imagenes de cualidades de la empresa*/
+
+/*---------------------------------------------------------------------------------------------------*/
+
+.cualidades {
+
+margin-top:100px;
+display:inline;	
+
+
+		
+	
+}
+
+
+
+.cualidades img{
+	
+background-color:#333;
+border-radius:100%;
+border:solid #000 3px;
+margin-left:10%;
+
+
+
+
+}
+
+.cualidades a:hover{
+	
+
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+
+
+
+.hcalidad{
+	
+	float:left;
+ 	margin-left:16%;
+	font-size:30px;
+	
+	
+
+}
+
+.hcompromiso
+{
+
+	float:left;
+	margin-left:20%;
+	font-size:30px;
+	
+}
+
+.hsatisfaccion{
+	
+	float:left;
+	margin-left:16%;
+	font-size:30px;
+	
+}
+
+
+
+
+
+
+
+/*NOticias*/ 
+/*-------------------------------------------------------------------------------------------------------*/
+
+.noticias
+{
+
+	
+	width:100%;
+	height:auto;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&amp;0.65+0,0.25+100;Neutral+Density */
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.25) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0.25))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.25) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.25) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.25) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.25) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#40000000',GradientType=0 ); /* IE6-9 */
+
+	margin-bottom:10%;
+	margin-top:11%;
+	padding-bottom:5%; 
+	padding-top:3%;
+
+
+
+}
+
+.noticias h2
+{
+	margin-left:10%;
+	margin-bottom:5%;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#0CC;
+	font-size:30px;
+	
+	
+}
+
+#catalogoJoven{
+	
+	
+	float:left;
+	width:20%;
+	margin-left:10%;
+	height:24em;
+	background-image:url(img/05.jpg);
+	border-radius:5%;
+	box-shadow:10px 3px 36px 5px #333;
+	
+	
+
+}
+
+
+
+
+
+
+#catalogoSalones{
+	
+		float:left;
+		background-image:url(img/04.jpg);
+		width:20%;
+		height:24em;
+		margin-left:8%;
+		border-radius:5%;
+		box-shadow:10px 3px 36px 5px #333;
+		
+}
+
+#catalogoSalonJoven{
+	
+	
+	width:20%;
+	height:24em;
+	float:left;
+	margin-left:8%;
+	background-image:url(img/living.jpg);
+	border-radius:5%;
+	box-shadow:10px 3px 36px 5px #333;
+	
+}
+
+.noticias button
+{
+	float:left;	
+	margin-top:3%;
+	font-size:15px;
+	background: #7d7e7d; /* Old browsers */
+	background: -moz-linear-gradient(top,  #7d7e7d 0%, #0e0e0e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7d7e7d), color-stop(100%,#0e0e0e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #7d7e7d 0%,#0e0e0e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+	color:#0CC;
+	border-radius:5%;
+	width:10%;
+	height:auto;
+	border:none;
+	
+	
+}
+
+
+.boton1
+{
+	margin-left:15%;
+	padding-top:1%;
+	padding-bottom:1%;
+	
+	
+}
+
+.noticias button:hover
+{
+	background: #94B3FC; /* Old browsers */
+	background: -moz-linear-gradient(top,  #94B3FC 0%, #0e0e0e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#94B3FC), color-stop(100%,#0e0e0e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #94B3FC 0%,#0e0e0e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #94B3FC 0%,#0e0e0e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #94B3FC 0%,#0e0e0e 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #94B3FC 0%,#0e0e0e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#94B3FC', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+	color:#F90;
+	
+
+	
+	
+}
+
+.noticias button:active
+{
+	background: #000;
+}
+
+.boton2
+{
+	margin-left:18%;
+	padding-top:1%;
+	padding-bottom:1%;
+	
+	
+	
+}
+
+.boton3
+{
+	margin-left:18%;
+	padding-bottom:6px;
+	padding-top:6px;
+	
+	
+	
+}
+
+
+
+/*Enlaces de pie de página*/
+
+.comercioe{
+	display:inline;
+	margin-left:2%;
+	float:left;
+}
+
+.comercioe a
+{
+	display:block;
+	margin-left:2%;
+	color:#0CC;
+	
+
+}
+
+.Oportunidades
+{
+	display:inline;
+	float:left;
+	margin-left:10%;
+	
+	
+}
+
+.Oportunidades a
+{
+	display:block;
+	margin-left:2%;
+	color:#0CC;
+}
+
+.Enlaces
+{
+	display:inline;
+	float:left;
+	margin-left:10%;
+	
+	
+}
+
+.Enlaces a
+{
+	display:block;
+	margin-left:2%;
+	color:#0CC;
+}
+
+
+
+
+
+/*Estilos slidershow*/
+/*------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+ /* jssor slider bullet navigator skin 05 css */
+        /*
+        .jssorb05 div           (normal)
+        .jssorb05 div:hover     (normal mouseover)
+        .jssorb05 .av           (active)
+        .jssorb05 .av:hover     (active mouseover)
+        .jssorb05 .dn           (mousedown)
+        */
+		
+		
+
+		
+		
+		
+		
+		#jssor_1
+		{
+			position: relative; 
+			margin: 0 auto; 
+			top: 40px; 
+			left: 0px; 
+			width: 600px; 
+			height: 100px; 
+			overflow: hidden; 
+			visibility: hidden;
+			box-shadow:25px 3px 16px 5px #333;
+			
+			
+		}
+		
+		.1{
+			position: absolute; 
+			top: 0px; 
+			left: 0px;	
+			
+		}
+		
+		.2{
+			
+			filter: alpha(opacity=70);
+			opacity: 0.7;
+			position: absolute; 
+			display: block; 
+			top: 0px; 
+			left: 0px; 
+			width: 100%; 
+			height: 100%;
+			
+		}
+		.3{
+			
+			position:absolute;
+			display:block;
+			background:url('img/loading.gif') no-repeat center center;
+			top:0px;
+			left:0px;
+			width:100%;
+			height:100%;
+			 
+		}
+		
+		.4{
+			
+			 cursor: default;
+			
+			 top: 0px; 
+			 left: 0px;
+			 width: 600px; 
+			 height: 300px; 
+			 overflow: hidden;
+			
+		}
+		
+	
+		
+		.prototype
+		{
+		
+			width:16px;
+			height:16px;
+		}
+		
+		
+        .jssorb05 {
+            position: absolute;
+			 bottom:16px;
+			 right:6px;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 2px;
+            height: 16px;
+            background: url('img/b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+		
+		
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 12 css */
+        /*
+        .jssora12l                  (normal)
+        .jssora12r                  (normal)
+        .jssora12l:hover            (normal mouseover)
+        .jssora12r:hover            (normal mouseover)
+        .jssora12l.jssora12ldn      (mousedown)
+        .jssora12r.jssora12rdn      (mousedown)
+        */
+		
+		.jssora12l{
+			top:123px;
+			left:0px;
+			width:30px;
+			height:46px; 
+		}
+		
+		.jssora12r
+		{
+		top:123px;
+		right:0px;
+		width:30px;
+		height:46px;	
+			
+			
+		}
+		
+        .jssora12l, .jssora12r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 0px;
+            height: 46px;
+            cursor: pointer;
+            background: url('img/a12.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora12l { background-position: -16px -37px; }
+        .jssora12r { background-position: -75px -37px; }
+        .jssora12l:hover { background-position: -136px -37px; }
+        .jssora12r:hover { background-position: -195px -37px; }
+        .jssora12l.jssora12ldn { background-position: -256px -37px; }
+        .jssora12r.jssora12rdn { background-position: -315px -37px; }
+		
+		
+/*El pie de la página*/
+
+footer{
+	
+	
+	height:20em;
+	background-color:#333;
+	position:relative;
+	top:100%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+	background: #7d7e7d; /* Old browsers */
+	background: -moz-linear-gradient(top,  #7d7e7d 0%, #0e0e0e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7d7e7d), color-stop(100%,#0e0e0e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #7d7e7d 0%,#0e0e0e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+
+	border-top: solid 10px #3DB2E1;
+}
+
+.redes{
+
+	float:right;
+	margin-top:80px;
+	position:relative;
+	
+}
+
+.CC{
+	
+	float:right;
+	margin-right:5%;
+	margin-top:3%;
+}
+footer a:hover{
+	
+	color:#fff;
+}
+
+.llamanos{
+	
+	float:left;
+	margin-top:5%;
+	margin-left:2%;
+}
+
+
+
+
+
+
+
+
+/************************************************************************************************************/
+/*Estilos form_login*/
+
+#h1_login
+{
+	text-align:center;
+	margin-bottom:150px;	
+}
+
+#div_form_login
+{
+	
+	background-color:#fff;	
+	width:600px;
+	height:300px;
+	margin-left:380px;
+	border:solid 1px;
+	border-bottom-left-radius: 40px;
+	border-top-right-radius: 40px;
+	
+}
+
+
+#form_login
+{
+	margin-top:60px;	
+}
+
+#form_login_usuario
+{
+	
+	width:300px;
+	height:30px;
+	font-size:24px;
+	
+}
+
+
+#form_login_pass
+{
+	
+	width:300px;
+	height:30px;
+	font-size:24px;
+	
+}
+
+#form_login input
+{
+
+	display:block;	
+	margin-bottom:10px;
+	width:300px;
+	height:30px;
+	font-size:24px;
+	margin-left:140px;
+
+	
+	
+}
+
+
+#form_login label
+{
+	margin-left:140px;
+}
+
+
+
+/*************************************************************************************************/
+/*Estilos página admin.php*/
+
+
+#div_contenido_admin
+{
+	margin-top:200px;
+}
+
+#div_contenido_admin section
+{
+	float:left;
+	margin-left:100px;
+	border: solid 1px;
+	border-radius:20px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+	background: #7d7e7d; /* Old browsers */
+	background: -moz-linear-gradient(top,  #7d7e7d 0%, #0e0e0e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7d7e7d), color-stop(100%,#0e0e0e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #7d7e7d 0%,#0e0e0e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+}
+
+#div_contenido_admin section:hover	
+{
+	-webkit-transform:rotate(-7deg);
+	-moz-transform:rotate(-7deg);
+	-o-transform:rotate(-7deg);
+}
+
+#div_contenido_admin section:active	
+{
+	
+	border:3px solid #0FF;
+}
+
+#div_contenido_admin img
+{
+	width:200px;
+	height:200px;
+	
+}
+
+#div_contenido_admin h4
+{
+	color:#fff;
+	margin-left:13px;
+}
